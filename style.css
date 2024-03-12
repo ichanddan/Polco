@@ -693,7 +693,7 @@ footer{
         padding: 10px;
         font-size: 45px;
         font-weight: 600;
-        line-height: 64px;
+        line-height: 47px;
         letter-spacing: 0em;
     }
     .main{
@@ -701,6 +701,10 @@ footer{
         height: 120px;
         top: 350px;
         left: 20px;
+    }
+    #cars{
+        padding: 10px 10px;
+        margin: 5px;
     }
 
 
@@ -870,6 +874,9 @@ footer{
     .row-1{
         width: 100%;
         /* display: block; */
+    }
+    .btn button{
+        padding: 10px 22px;
     }
     
 }
