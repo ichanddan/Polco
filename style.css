@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    width: 1440px;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+}
+
+/* -----NavBar-----*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 114px;
+}
+
+.list ul {
+    list-style: none;
+    display: block;
+    text-decoration: none;
+}
+
+.list ul li {
+    display: inline-block;
+    padding: 10px;
+    color: #A6A6A6;
+
+}
+
+.list ul li a {
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+.isActive {
+    color: #292D32 !important;
+
+}
+
+
+/* -----Home----- */
+.home {
+    width: 1440px;
+    height: 387px;
+    background: url(img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* top: 98px; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+
+.be img {
+    width: 550px;
+    top: 0;
+    left: 100px;
+    position: absolute;
+    /* background-color: #58E378B8; */
+    /* rotate: 289deg; */
+}
+
+.home h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 280px;
+    z-index: 1;
+}
+
+.main {
+    width: 1065px;
+    height: 120px;
+    top: 350px;
+    left: 188px;
+    border-radius: 8px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px 0px #00000024;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/* -----Hareiare section------ */
+.harrier {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1036px;
+    height: 225px;
+    top: 0px;
+    left: 202px;
+    margin-top: 150px;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+.harrier1 {
+    background: url(img/rectangle-23-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 495px;
+    height: 225px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.harrier2 {
+    background: url(img/rectangle-23-bg-ZTA.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 495px;
+    height: 225px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.text {
+    padding-left: 30px;
+    color: #D9D9D9;
+
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 59.98px;
+    letter-spacing: 0em;
+
+}
+
+.text p {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+
+.text :nth-child(4) {
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.text :nth-child(2) {
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 2px;
+}
+
+.offer button {
+    width: 123px;
+    height: 26px;
+    border-radius: 4px;
+    background: #ffffff80;
+    border: none;
+}
+
+.harrier1 .img img {
+    width: 325px;
+
+}
+
+.harrier2 .img img {
+    width: 325px;
+
+}
+
+.offer-1 {
+    width: 75px;
+    height: 75px;
+    top: 5px;
+    left: 210px;
+    background: #FFFFFF;
+    color: royalblue;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.offer-1 h1 {
+    padding: 1px 16px;
+
+} */
+
+/* <!-- ----------Top catgeory---------- --> */
+
+
+.cat-1 {
+    width: 1237px;
+    height: 387px;
+    text-align: center;
+}
+.cat-1 p{
+    text-align: center;
+    font-size: 14px;
+}
+.h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+}
+
+.img-1 .a1 {
+    width: 282.42px;
+    height: 300px;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.a2{
+    width: 167.07px;
+    height: 148.83px;
+}
+.img-2{
+    position: relative;
+}
+.img-2 h1{
+    width: 167.07px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 20px 0px 0px 25px;
+    text-align: left;
+
+}
+.con .img-2 {
+    background: #E9F7FA;
+    width: 216.56px;
+    height: 233.88px;
+
+}
+.img-2 img{
+    padding-left: 25px;
+}
+
+
+
+
+
+
+/* -----------way choice------------- */
+
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.way-choice {
+    width: 1280px;
+    height: 720px;
+    text-align: center;
+    position: relative;
+}
+.text-2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    width: 251px;
+    height: 120px;
+    color: #FFFFFF;
+
+
+}
+.text-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 313px;
+    height: 313px;
+    text-align: center;
+    background: linear-gradient(146.39deg, #03CC48 15.5%, #F0F6F2 159.53%);
+    border-radius: 50%;
+    top: 156px;
+    position: absolute;
+    
+}
+.text-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 426px;
+    height: 426px;
+    text-align: center;
+    background: #F2F2F2;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px ;
+    left: 230px;
+    z-index: -1;
+
+}
+.text-3 p{
+    width: 200px;
+    text-align: left;
+}
+.text-4{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.dimond{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 110px;
+    left: 540px;
+}
+.dimond-1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 220px;
+    left: 604px;
+}
+.dimond-2{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 330px;
+    left: 604px;
+}
+.dimond-3{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 430px;
+    left: 540px;
+}
+.dimond i{
+    width: 80px;
+    height: 80px;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.dimond-1 i{
+    width: 80px;
+    height: 80px;
+    background: rgb(43, 80, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.dimond-2 i{
+    width: 80px;
+    height: 80px;
+    background: rgb(10, 206, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.dimond-3 i{
+    width: 80px;
+    height: 80px;
+    background: rgb(199, 195, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.m1{
+    top: 200px;
+    left: 600px;
+}
+
+/* --------policy-------- */
+
+.policy{
+    width: 1440px;
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-5{
+    width: 273px;
+    height: 147px;
+    text-align: center;
+    margin: 50px;
+}
+.text-5 img{
+    width: 81.38px;
+    height: 81.38px;
+
+
+}
+
+
+
+
+
+
+
+/* ...............Testimonials............. */
+.Testimonial{
+    width: 1440px;
+    height: 581px;
+    text-align: center;
+    background: #E9F7FA;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.testi{
+    background: #FFFFFF;
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 2px 18px 0px #00000024;
+}
+.dubleQuate{
+    padding-top: 30px;
+    
+}
+.dubleQuate i{
+    font-size: 30px;
+    color: rgb(151, 143, 4);
+}
+.text-1{
+    text-align: center;
+    padding: 15px;
+}
+.text-1 p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.dot{
+    border-bottom: 5px solid #A6A6A6;
+    background: #292D32;
+    width: 50px;
+
+}
+.text-1 img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #A6A6A6;
+    border-radius: 50%;
+
+}
+
+
+/* ---------footer---------- */
+
+
+footer{
+    width: 1440px;
+    height: 419px;
+    background: #F2F2F2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Testimonial{
+        text-align: center;
+        height: fit-content;
+        width: fit-content;
+    }
+    .Testimonial h1{
+        font-size: 30px;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
