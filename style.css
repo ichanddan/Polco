@@ -75,7 +75,7 @@ section {
     /* rotate: 289deg; */
 }
 
-.home h1 {
+.h2 {
     font-size: 54px;
     font-weight: 600;
     line-height: 64px;
@@ -100,7 +100,41 @@ section {
     justify-content: center;
     padding: 20px;
 }
-
+.row-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px;
+    overflow: hidden;
+    font-size: 10px;
+}
+.text1{
+    border-radius: 12px;
+    border: 1px solid #EBEAEA;
+    
+    display: flex;
+}
+.text1 :nth-child(2){
+    background: #FE8400;
+    border-radius: 12px;
+    padding: 10px 65px;
+}
+.text1 :nth-child(1){
+    padding: 10px 26px;
+}
+#cars{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #EBEAEA;
+}
+.btn button{
+    padding: 10px 50px;
+    background: #FE8400;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
 
 
 
@@ -655,7 +689,7 @@ footer{
         left: -175px;
         position: absolute;
     }
-    .home h1{
+    .h2{
         padding: 10px;
         font-size: 45px;
         font-weight: 600;
@@ -668,9 +702,18 @@ footer{
         top: 350px;
         left: 20px;
     }
-    .categery{
-        margin: 10px;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
     .harrier{
         display: block;
         left: 0px;
@@ -819,6 +862,14 @@ footer{
     }
     .foot-2{
         margin: 30px 0px;
+    }
+    .text1{
+        display: none;
+        width: 100%;
+    }
+    .row-1{
+        width: 100%;
+        /* display: block; */
     }
     
 }
