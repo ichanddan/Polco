@@ -22,9 +22,11 @@ section {
     width: 1440px;
     height: 114px;
 }
-.hanburger{
+
+.hanburger {
     display: none;
 }
+
 .list ul {
     list-style: none;
     display: block;
@@ -100,7 +102,8 @@ section {
     justify-content: center;
     padding: 20px;
 }
-.row-1{
+
+.row-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,26 +112,31 @@ section {
     overflow: hidden;
     font-size: 10px;
 }
-.text1{
+
+.text1 {
     border-radius: 12px;
     border: 1px solid #EBEAEA;
-    
+
     display: flex;
 }
-.text1 :nth-child(2){
+
+.text1 :nth-child(2) {
     background: #FE8400;
     border-radius: 12px;
     padding: 10px 65px;
 }
-.text1 :nth-child(1){
+
+.text1 :nth-child(1) {
     padding: 10px 26px;
 }
-#cars{
+
+#cars {
     padding: 10px 20px;
     border-radius: 8px;
     border: 1px solid #EBEAEA;
 }
-.btn button{
+
+.btn button {
     padding: 10px 50px;
     background: #FE8400;
     border-radius: 12px;
@@ -253,8 +261,9 @@ section {
 .offer-1 h1 {
     padding: 1px 16px;
 
-} */
+}
 
+*/
 /* <!-- ----------Top catgeory---------- --> */
 
 
@@ -263,10 +272,12 @@ section {
     height: 387px;
     text-align: center;
 }
-.cat-1 p{
+
+.cat-1 p {
     text-align: center;
     font-size: 14px;
 }
+
 .h1 {
     font-size: 40px;
     font-weight: 900;
@@ -284,14 +295,17 @@ section {
     align-items: center;
     justify-content: space-around;
 }
-.a2{
+
+.a2 {
     width: 167.07px;
     height: 148.83px;
 }
-.img-2{
+
+.img-2 {
     position: relative;
 }
-.img-2 h1{
+
+.img-2 h1 {
     width: 167.07px;
     font-size: 18px;
     font-weight: 500;
@@ -300,13 +314,15 @@ section {
     text-align: left;
 
 }
+
 .con .img-2 {
     background: #E9F7FA;
     width: 216.56px;
     height: 233.88px;
 
 }
-.img-2 img{
+
+.img-2 img {
     padding-left: 25px;
 }
 
@@ -317,19 +333,21 @@ section {
 
 /* -----------way choice------------- */
 
-.div{
+.div {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
+
 .way-choice {
     width: 1280px;
     height: 720px;
     text-align: center;
     position: relative;
 }
-.text-2 h1{
+
+.text-2 h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
@@ -338,13 +356,14 @@ section {
     height: 120px;
     color: #FFFFFF;
 }
-.s1{
-    border-bottom:3px solid #f2f2f2;
-    width: 100px; 
-    margin-left:100px ;
+
+.s1 {
+    border-bottom: 3px solid #f2f2f2;
+    width: 100px;
+    margin-left: 100px;
 }
 
-.text-2{
+.text-2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -355,9 +374,10 @@ section {
     border-radius: 50%;
     top: 156px;
     position: absolute;
-    
+
 }
-.text-3{
+
+.text-3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -367,21 +387,23 @@ section {
     background: #F2F2F2;
     border-radius: 50%;
     position: absolute;
-    top: 100px ;
+    top: 100px;
     left: 230px;
     z-index: -1;
 
 }
-.text-3 p{
+
+.text-3 p {
     width: 200px;
     text-align: left;
 }
-.text-4{
+
+.text-4 {
     text-align: left;
     margin-left: 20px;
 }
 
-.dimond{
+.dimond {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -389,7 +411,8 @@ section {
     top: 110px;
     left: 540px;
 }
-.dimond-1{
+
+.dimond-1 {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -397,7 +420,8 @@ section {
     top: 220px;
     left: 604px;
 }
-.dimond-2{
+
+.dimond-2 {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -405,7 +429,8 @@ section {
     top: 330px;
     left: 604px;
 }
-.dimond-3{
+
+.dimond-3 {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -413,7 +438,8 @@ section {
     top: 430px;
     left: 540px;
 }
-.dimond i{
+
+.dimond i {
     width: 80px;
     height: 80px;
     background: blueviolet;
@@ -424,7 +450,8 @@ section {
     color: #FFFFFF;
     font-size: 25px;
 }
-.dimond-1 i{
+
+.dimond-1 i {
     width: 80px;
     height: 80px;
     background: rgb(43, 80, 226);
@@ -435,7 +462,8 @@ section {
     color: #FFFFFF;
     font-size: 25px;
 }
-.dimond-2 i{
+
+.dimond-2 i {
     width: 80px;
     height: 80px;
     background: rgb(10, 206, 250);
@@ -446,7 +474,8 @@ section {
     color: #FFFFFF;
     font-size: 25px;
 }
-.dimond-3 i{
+
+.dimond-3 i {
     width: 80px;
     height: 80px;
     background: rgb(199, 195, 202);
@@ -458,27 +487,29 @@ section {
     font-size: 25px;
 }
 
-.m1{
+.m1 {
     top: 200px;
     left: 600px;
 }
 
 /* --------policy-------- */
 
-.policy{
+.policy {
     width: 1440px;
     height: 298px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.text-5{
+
+.text-5 {
     width: 273px;
     height: 147px;
     text-align: center;
     margin: 50px;
 }
-.text-5 img{
+
+.text-5 img {
     width: 81.38px;
     height: 81.38px;
 
@@ -492,56 +523,65 @@ section {
 
 
 /* ...............Testimonials............. */
-.Testimonial{
+.Testimonial {
     width: 1440px;
     height: 581px;
     text-align: center;
     background: #E9F7FA;
     padding: 20px;
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 
 }
-.testi{
+
+.testi {
     background: #FFFFFF;
     margin-top: 50px;
     width: 350px;
     height: 350px;
     box-shadow: 0px 2px 18px 0px #00000024;
 }
-.dubleQuate{
+
+.dubleQuate {
     padding-top: 30px;
-    
+
 }
-.dubleQuate i{
+
+.dubleQuate i {
     font-size: 30px;
     color: rgb(151, 143, 4);
 }
-.text-1{
+
+.text-1 {
     text-align: center;
     padding: 15px;
 }
-.text-1 p{
+
+.text-1 p {
     font-size: 18px;
     padding-bottom: 10px;
 }
-.id{
+
+.id {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
-.dot{
+
+.dot {
     border-bottom: 5px solid #A6A6A6;
     background: #292D32;
     width: 50px;
 
 }
-.text-1 img{
+
+.text-1 img {
     width: 100px;
     height: 100px;
     border: 1px solid #A6A6A6;
@@ -553,26 +593,29 @@ section {
 /* ---------footer---------- */
 
 
-footer{
+footer {
     width: 1440px;
     height: 419px;
     background: #F2F2F2;
-    padding: 50px ;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
-.foot-1{
+
+.foot-1 {
     width: 320px;
 }
-.foot-1 img{
+
+.foot-1 img {
     width: 134.44px;
     height: 72px;
     border: none;
 
 }
-.input{
+
+.input {
     display: flex;
     align-items: center;
     border: 1px solid black;
@@ -582,7 +625,8 @@ footer{
     border-radius: 4px;
     margin-top: 25px;
 }
-.input input{
+
+.input input {
     width: 320px;
     height: 38px;
     padding: 10px, 20px, 10px, 20px;
@@ -594,35 +638,41 @@ footer{
 
 
 }
-.input img{
+
+.input img {
     width: 20px;
     height: 20px;
-    margin-right:10px ;
+    margin-right: 10px;
 
 }
-.socail{
+
+.socail {
     margin-top: 25px;
     width: 160px;
     height: 32px;
     gap: 32px;
 
 }
-.socail img{
+
+.socail img {
     width: 32px;
     height: 32px;
 }
-.foot-2{
+
+.foot-2 {
     width: 136px;
     height: 173px;
     padding: 10px;
     text-align: left;
 }
-.foot-2 ul{
+
+.foot-2 ul {
     list-style-type: none;
 
-    
+
 }
-.foot-2 li{
+
+.foot-2 li {
     width: 136px;
     margin: 10px;
     font-size: 16px;
@@ -654,28 +704,34 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
-    section{
+    section {
         width: 100%;
     }
-    .navbar{
+
+    .navbar {
         align-items: center;
-        width:100%;
+        width: 100%;
     }
-    .hanburger{
+
+    .hanburger {
         display: block;
     }
-    .navbar i{
+
+    .navbar i {
         font-size: 40px;
     }
-    .list ul li{
-        display: none ;
+
+    .list ul li {
+        display: none;
     }
-    .log img{
+
+    .log img {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .home{
+
+    .home {
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -683,26 +739,30 @@ footer{
         background-attachment: fixed;
         background-position-x: center;
     }
-    .be{
+
+    .be {
         width: 100%;
         top: 0px;
         left: -175px;
         position: absolute;
     }
-    .h2{
+
+    .h2 {
         padding: 10px;
         font-size: 45px;
         font-weight: 600;
         line-height: 47px;
         letter-spacing: 0em;
     }
-    .main{
+
+    .main {
         width: 90%;
         height: 120px;
         top: 350px;
         left: 20px;
     }
-    #cars{
+
+    #cars {
         padding: 10px 10px;
         margin: 5px;
     }
@@ -718,51 +778,62 @@ footer{
 
 
 
-    .harrier{
+    .harrier {
         display: block;
         left: 0px;
         width: 100%;
         padding: 10px;
     }
-    .harrier1,.harrier2{
+
+    .harrier1,
+    .harrier2 {
         justify-content: center;
         width: 100%;
         margin-top: 10px;
 
     }
-    .harrier1 .img img{
+
+    .harrier1 .img img {
         width: 300px;
         padding-right: 100px;
     }
-    .harrier2 .img img{
+
+    .harrier2 .img img {
         width: 300px;
         padding-right: 100px;
     }
-    .text{
+
+    .text {
         padding-left: 100px;
     }
-    .offer-1{
+
+    .offer-1 {
 
         left: 160px;
     }
-    .cat-1{
+
+    .cat-1 {
         margin-top: 300px;
         width: 100%;
         z-index: 1;
     }
-    .con{
+
+    .con {
         flex-direction: column;
         gap: 15px;
 
     }
-    .h1{
+
+    .h1 {
         font-size: 30px;
     }
-    .p{
+
+    .p {
         font-size: 12px;
-        padding:15px ;
+        padding: 15px;
     }
-    .way-choice{
+
+    .way-choice {
         width: 100%;
         height: 200px;
         margin: 10px;
@@ -771,112 +842,135 @@ footer{
         justify-content: center;
 
     }
-    .text-2{
+
+    .text-2 {
         width: 100px;
         height: 100px;
         top: 25px;
         left: 0px;
     }
-    .text-2 h1{
+
+    .text-2 h1 {
         font-size: 15px;
-        line-height:25px;
+        line-height: 25px;
         position: absolute;
         top: 20px;
         width: 80px;
     }
-    .text-3{
+
+    .text-3 {
         width: 150px;
         height: 150px;
         top: 0px;
-        left:50px;
+        left: 50px;
     }
-    .text-3 p{
+
+    .text-3 p {
         font-size: 8px;
         width: 100px;
         padding-left: 23px;
     }
-    .dimond{
+
+    .dimond {
         top: -23px;
         left: 130px;
-        
+
     }
-    .dimond-1{
+
+    .dimond-1 {
         top: 20px;
         left: 170px;
-        
+
     }
-    .dimond-2{
+
+    .dimond-2 {
         top: 70px;
         left: 170px;
-        
+
     }
-    .dimond-3{
+
+    .dimond-3 {
         top: 110px;
         left: 130px;
-        
+
     }
-    .dimond i{
+
+    .dimond i {
         width: 30px;
         height: 30px;
         font-size: 14px;
     }
-    .dimond-1 i{
+
+    .dimond-1 i {
         width: 30px;
         height: 30px;
         font-size: 14px;
     }
-    .dimond-2 i{
+
+    .dimond-2 i {
         width: 30px;
         height: 30px;
         font-size: 14px;
     }
-    .dimond-3 i{
+
+    .dimond-3 i {
         width: 30px;
         height: 30px;
         font-size: 14px;
     }
-    .s1{
+
+    .s1 {
         margin-left: 10px;
         width: 50px;
     }
-    .text-4 h1{
+
+    .text-4 h1 {
         font-size: 13px;
     }
-    .text-4 p{
+
+    .text-4 p {
         font-size: 10px;
     }
-    .policy{
+
+    .policy {
         display: inline-block;
         margin: 10px;
         height: fit-content;
         text-align: center;
     }
-    .Testimonial{
+
+    .Testimonial {
         width: 100%;
         height: fit-content;
 
     }
-    .row{
+
+    .row {
         display: inline-block;
     }
-    footer{
+
+    footer {
         display: inline-block;
         width: 100%;
         height: 100%;
     }
-    .foot-2{
+
+    .foot-2 {
         margin: 30px 0px;
     }
-    .text1{
+
+    .text1 {
         display: none;
         width: 100%;
     }
-    .row-1{
+
+    .row-1 {
         width: 100%;
         /* display: block; */
     }
-    .btn button{
+
+    .btn button {
         padding: 10px 22px;
     }
-    
+
 }
