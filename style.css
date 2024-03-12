@@ -508,10 +508,76 @@ footer{
     width: 1440px;
     height: 419px;
     background: #F2F2F2;
+    padding: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 }
+.foot-1{
+    width: 320px;
+}
+.foot-1 img{
+    width: 134.44px;
+    height: 72px;
+    border: none;
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 320px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+.input input{
+    width: 320px;
+    height: 38px;
+    padding: 10px, 20px, 10px, 20px;
+    gap: 144px;
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 10px;
 
 
+}
+.input img{
+    width: 20px;
+    height: 20px;
+    margin-right:10px ;
+
+}
+.socail{
+    margin-top: 25px;
+    width: 160px;
+    height: 32px;
+    gap: 32px;
+
+}
+.socail img{
+    width: 32px;
+    height: 32px;
+}
+.foot-2{
+    width: 136px;
+    height: 173px;
+    padding: 10px;
+    text-align: left;
+}
+.foot-2 ul{
+    list-style-type: none;
+
+    
+}
+.foot-2 li{
+    width: 136px;
+    margin: 10px;
+    font-size: 16px;
+}
 
 
 
@@ -550,4 +616,6 @@ footer{
     .row{
         flex-direction: column;
     }
+
+
 }
